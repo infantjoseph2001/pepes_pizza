@@ -187,7 +187,7 @@ class _DishpageState extends State<Dishpage> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (_) => Category(Dish[index])));
+                                builder: (_) => Category(Dishlist[index])));
                       },
                       child: Card(
                         child: Row(
